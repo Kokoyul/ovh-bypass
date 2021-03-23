@@ -1,12 +1,12 @@
 # ovh-bypass
 
 
-Requisitos:
+Requirements:
 
 - Python3
 
-Uso:
+Usage:
 
 chmod 777 ovh.py
 
-python3 ovh.py (ip) (puerto) (tiempo)
+python3 ovh.py (ip) (port) (time)
